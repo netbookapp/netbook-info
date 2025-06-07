@@ -6,44 +6,85 @@
   <title>Netbook Support</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
       line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background: #f9f9f9;
-      color: #333;
+      margin: 2rem;
+      background-color: #fff;
+      color: #111;
     }
+
     .container {
       max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-      background: #fff;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin: 0 auto;
     }
+
     header, footer {
       background: #007aff;
       color: #fff;
-      padding: 15px;
+      padding: 1rem;
       text-align: center;
+      border-radius: 8px;
     }
-    header h1, footer p {
-      margin: 0;
-    }
+
     main {
-      padding: 20px;
+      padding: 2rem 0;
     }
+
+    h1 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    h2 {
+      font-size: 1.4rem;
+      margin-top: 2rem;
+    }
+
+    h3 {
+      font-size: 1.2rem;
+      margin-top: 1.5rem;
+    }
+
+    p, li {
+      margin: 0.75rem 0;
+    }
+
     a {
       color: #007aff;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
     .contact {
       margin-top: 20px;
       padding: 15px;
       background: #f0f0f0;
       border-left: 4px solid #007aff;
+      border-radius: 4px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #1c1c1e;
+        color: #f2f2f7;
+      }
+
+      a {
+        color: #9fc9ff;
+      }
+
+      header, footer {
+        background: #0a84ff;
+        color: #fff;
+      }
+
+      .contact {
+        background: #2c2c2e;
+        border-left: 4px solid #0a84ff;
+      }
     }
   </style>
 </head>
@@ -62,13 +103,7 @@
       <section class="contact">
         <h3>Contact Us</h3>
         <p>
-          Please reach out via email at <a href="mailto:support@netbookapp.com">support@netbookapp.com</a> and we'll get back to you as soon as possible.
-        </p>
-      </section>
-      <section>
-        <h2>Additional Information</h2>
-        <p>
-          For updates, FAQs, and more helpful resources, please visit our <a href="https://github.com/YourGitHubUsername/Netbook" target="_blank">GitHub Repository</a>.
+          Please reach out via email at <a href="mailto:netbookfinance@gmail.com">netbookfinance@gmail.com</a> and we'll get back to you as soon as possible.
         </p>
       </section>
     </main>
